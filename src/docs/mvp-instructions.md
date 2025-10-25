@@ -1,5 +1,4 @@
-# MVP Roadmap & Implementation Instructions — Maternal Health Companion Platform
-
+# MVP Roadmap & Implementation Instructions —Mama Care
 This document outlines steps to implement an initial MVP for the platform, including authentication (Google), core modules, data model suggestions, and deployment tips.
 
 ## Objective

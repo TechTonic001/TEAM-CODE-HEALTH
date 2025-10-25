@@ -51,8 +51,7 @@ export default function Home() {
           >
             <motion.div variants={fadeInUp} className="mb-8">
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6">
-                🩺 Maternal Health Companion Platform
-              </h1>
+                🩺Mama Care              </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-gray-700 mb-4 max-w-4xl mx-auto px-4">
                 Affordable, connected, and stress-free healthcare for every woman.
               </p>

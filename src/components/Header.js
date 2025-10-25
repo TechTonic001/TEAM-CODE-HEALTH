@@ -31,8 +31,7 @@ export default function Header() {
                     <Link href="/" className="flex items-center space-x-2">
                         <div className="text-2xl">🩺</div>
                         <div className="text-xl font-bold text-gray-900">
-                            Maternal Health Companion
-                        </div>
+                            Mama Care                        </div>
                     </Link>
 
                     <div />

@@ -35,8 +35,7 @@ export function DashboardLayout({ children }) {
                             <div className="text-2xl">🩺</div>
                             <div>
                                 <h1 className="text-xl font-bold text-gray-900">
-                                    Maternal Health Companion
-                                </h1>
+                                    Mama Care                                </h1>
                                 <p className="text-sm text-gray-600">Dashboard</p>
                             </div>
                         </div>

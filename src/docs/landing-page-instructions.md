@@ -1,5 +1,4 @@
-# Landing Page — Maternal Health Companion Platform
-
+# Landing Page —Mama Care
 This document explains how to create the initial landing page for the Maternal Health Companion Platform Next.js app. It assumes the project uses the `app/` router (Next.js 13+) and that you have an existing `src/app/layout.js` and `src/app/globals.css`.
 
 ## Goals
