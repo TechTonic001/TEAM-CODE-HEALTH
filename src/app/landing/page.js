@@ -4,11 +4,11 @@ export default function Page() {
     return (
         <main className="container mx-auto px-6 py-12">
             <header className="max-w-4xl mx-auto text-center">
-                <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Maternal Health Companion Platform</h1>
+                <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Mama Care</h1>
                 <p className="text-lg md:text-xl text-gray-700 mb-6">Affordable, connected, and stress-free healthcare for every woman.</p>
                 <p className="text-sm text-gray-600 mb-6">Helping pregnant women and nursing mothers in Ogbomoso access healthcare effortlessly — digital medical history, easy bookings, affordable tests, and timely reminders.</p>
                 <div className="flex gap-3 justify-center">
-                    <Link href="/api/auth/signin" className="btn-primary px-4 py-2 rounded bg-blue-600 text-white">Get Started</Link>
+                    <Link href="/" className="btn-primary px-4 py-2 rounded bg-blue-600 text-white">Get Started</Link>
                     <Link href="#modules" className="px-4 py-2 rounded border">Learn More</Link>
                 </div>
             </header>

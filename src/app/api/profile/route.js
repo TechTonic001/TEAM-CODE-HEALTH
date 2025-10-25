@@ -1,6 +1,6 @@
 
 import { NextResponse } from "next/server";
-import { getServerSession } from "next-auth";
+import { getServerSession } from "next-auth/next";
 import { authOptions } from "../../auth/[...nextauth]/route";
 
 const DUMMY_PROFILE = {
@@ -26,9 +26,10 @@ const DUMMY_PROFILE = {
     }
 };
 
-export async function GET() {
+export async function GET(request) {
     try {
-        const session = await getServerSession(authOptions);
+        const { getSessionFromRequest } = await import('@src/lib/auth');
+        const session = await getSessionFromRequest(request);
         if (!session?.user?.email) {
             return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
         }
@@ -41,7 +42,8 @@ export async function GET() {
 
 export async function POST(request) {
     try {
-        const session = await getServerSession(authOptions);
+        const { getSessionFromRequest } = await import('@src/lib/auth');
+        const session = await getSessionFromRequest(request);
         if (!session?.user?.email) {
             return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
         }
